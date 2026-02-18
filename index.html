@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NexPulse – Performance-Copilot für Creator</title>
+    <meta
+      name="description"
+      content="NexPulse ist eine lokale High-Performance-Middleware für TikTok, Twitch und mehr. Verarbeite Stream-Events in Echtzeit und steuere Overlay, OBS, TTS, Regeln und Automationen."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow"></div>
+
+    <header class="topbar">
+      <a href="#" class="brand">
+        <span class="brand__logo">N</span>
+        <div>
+          <strong>NexPulse</strong>
+          <small>Performance-Copilot</small>
+        </div>
+      </a>
+      <nav class="topbar__nav">
+        <a href="#features">Features</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#stack">Stack</a>
+        <a href="#cta">Starten</a>
+      </nav>
+      <a class="button button--ghost" href="#cta">Beta sichern</a>
+    </header>
+
+    <main>
+      <section class="hero card card--panel">
+        <div class="hero__copy">
+          <p class="eyebrow">Local • Echtzeit • Automatisierbar</p>
+          <h1>
+            Stream-Events in <span>Echtzeit</span> zu Aktionen machen.
+          </h1>
+          <p>
+            NexPulse verarbeitet Chat, Gifts, Follows und Likes lokal mit niedriger
+            Latenz und steuert Overlay, OBS, TTS, Regeln und Goals in einem Flow.
+          </p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#cta">Kostenlos testen</a>
+            <a class="button button--ghost" href="#features">Demo ansehen</a>
+          </div>
+          <ul class="hero__bullets">
+            <li>⚡ Lokale Middleware statt Cloud-Zwang</li>
+            <li>🧠 Performance-Copilot für Creator</li>
+            <li>🔌 TikTok, Twitch, OBS & weitere Integrationen</li>
+          </ul>
+        </div>
+        <div class="hero__board card">
+          <div class="board__top">
+            <h2>Dashboard</h2>
+            <button type="button">Aktualisieren</button>
+          </div>
+          <div class="board__stats">
+            <article class="stat stat--pink">
+              <h3>Follower</h3>
+              <strong>2.418</strong>
+            </article>
+            <article class="stat stat--violet">
+              <h3>Likes</h3>
+              <strong>93K</strong>
+            </article>
+            <article class="stat stat--blue">
+              <h3>Gifts</h3>
+              <strong>167</strong>
+            </article>
+          </div>
+          <div class="board__events card">
+            <h3>Live Events</h3>
+            <ul>
+              <li><span>TikTok</span><p>Gift Train gestartet</p><time>vor 3s</time></li>
+              <li><span>Twitch</span><p>Neuer Follower: neonstreamer</p><time>vor 11s</time></li>
+              <li><span>OBS</span><p>Overlay Szene gewechselt</p><time>vor 18s</time></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <header class="section__header">
+          <p class="eyebrow">Feature-Set</p>
+          <h2>Gebaut für Live-Tempo statt Klick-Basteln</h2>
+        </header>
+        <div class="feature-grid">
+          <article class="card feature">
+            <h3>Event Router</h3>
+            <p>
+              Bündelt Live-Daten aus TikTok, Twitch und weiteren Quellen in eine
+              performante Event-Pipeline.
+            </p>
+          </article>
+          <article class="card feature">
+            <h3>Regel-Engine</h3>
+            <p>
+              Definiere Bedingungen wie „bei 10 Gifts in 30s“ und löse automatisch
+              Szenen, Sounds oder TTS aus.
+            </p>
+          </article>
+          <article class="card feature">
+            <h3>Overlay + OBS</h3>
+            <p>
+              Trigger Overlays, OBS-Szenen und visuelle Alerts ohne Tool-Hopping,
+              direkt aus einem zentralen Hub.
+            </p>
+          </article>
+          <article class="card feature">
+            <h3>Creator Goals</h3>
+            <p>
+              Verfolge Follows, Likes, Donations und Meilensteine plattformübergreifend
+              in Echtzeit.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="workflow" class="section card card--panel workflow">
+        <header class="section__header">
+          <p class="eyebrow">Workflow</p>
+          <h2>Vom Event zur Reaktion in Millisekunden</h2>
+        </header>
+        <ol>
+          <li>
+            <h3>Connect</h3>
+            <p>Accounts und Tools lokal verbinden (TikTok, Twitch, OBS).</p>
+          </li>
+          <li>
+            <h3>Compose</h3>
+            <p>Regeln, TTS-Flows, Goals und Automationen als Bausteine definieren.</p>
+          </li>
+          <li>
+            <h3>Control</h3>
+            <p>Live reagieren, Metriken beobachten und Performance im Griff behalten.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="stack" class="section">
+        <header class="section__header">
+          <p class="eyebrow">Technischer Fokus</p>
+          <h2>Warum NexPulse anders ist</h2>
+        </header>
+        <div class="pill-grid">
+          <span>Lokale Verarbeitung</span>
+          <span>Niedrige Latenz</span>
+          <span>Skalierbare Rules</span>
+          <span>OBS-Steuerung</span>
+          <span>Live-TTS</span>
+          <span>Automations-Hub</span>
+        </div>
+      </section>
+
+      <section id="cta" class="section card card--panel cta">
+        <h2>Bereit für den nächsten Stream-Level?</h2>
+        <p>
+          Sichere dir den Early Access für NexPulse und baue dein Streaming-Setup
+          wie ein Performance-System – nicht wie ein Overlay-Baukasten.
+        </p>
+        <a class="button button--primary" href="mailto:hello@nexpulse.local"
+          >Early Access anfragen</a
+        >
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> NexPulse. Made for creators who run at live speed.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
